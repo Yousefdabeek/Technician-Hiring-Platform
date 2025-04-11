@@ -1,0 +1,28 @@
+<div class = "mt-4">
+<form (ngSubmit)="onRegister()" #registerForm="ngForm">
+  <div class="d-flex justify-content-center mb-3">
+    <input type="text" name="username" [(ngModel)]="username" class="form-control px-3 py-2 rounded-pill shadow border-black"
+           placeholder="Username" required style="max-width: 300px; font-size: 0.95rem; color: #A8A8A8" />
+  </div>
+
+  <div class="d-flex justify-content-center mb-3">
+    <input type="email" name="email" [(ngModel)]="email" class="form-control px-3 py-2 rounded-pill shadow border-black"
+           placeholder="Email" required style="max-width: 300px; font-size: 0.95rem; color: #A8A8A8" />
+  </div>
+
+  <div class="d-flex justify-content-center mb-3 ">
+    <input type="password" name="password" [(ngModel)]="password" class="form-control px-3 py-2 rounded-pill shadow border-black"
+           placeholder="Password" required style="max-width: 300px; font-size: 0.95rem;" />
+  </div>
+
+  <div class="d-flex justify-content-center mb-3">
+    <input type="password" name="confirmPassword" [(ngModel)]="confirmPassword" class="form-control px-3 py-2 rounded-pill shadow border-black"
+           placeholder="Confirm Password" required style="max-width: 300px; font-size: 0.95rem;" />
+  </div>
+
+  <button type="submit" class="btn custom-login-btn px-4 py-2 rounded-pill mx-auto d-block">
+    Sign in
+  </button>
+
+</form>
+</div>
