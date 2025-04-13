@@ -6,7 +6,7 @@ import {SocialSignInComponent} from '../social-sign-in/social-sign-in.component'
   selector: 'app-sign-in-form',
   imports: [
     FormsModule,
-    SocialSignInComponent
+
   ],
   templateUrl: './sign-in-form.component.html',
   styleUrl: './sign-in-form.component.css'
