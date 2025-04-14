@@ -6,7 +6,7 @@ import {
 } from '../User Roles & Authentication-yousef/Forgot-password/forgot-password-page/forgot-password-page.component';
 
 export const routes: Routes = [
-  {path :'' , component:LoginPageComponent},
+
   {path: 'Sign' , component:SignInPageComponent},
   {path:'Forgot-page' ,component:ForgotPasswordPageComponent}
 ];
